@@ -58,9 +58,9 @@ nav h1 {
 
 /*--------------------navabboutme-------------------------------------------------*/
 .nav-aboutme {
-    margin-top: 15%;
-    margin-left: 10%;
-    margin-bottom: 300px;
+    margin-top: 13%;
+    margin-left: 8%;
+    margin-bottom: 350px;
     font-size: 30px;
     padding: 10px 20px;
 }
@@ -275,7 +275,8 @@ div.more button {
     padding: 10px;
     border: none;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color: gray;
 }
 
 .more {
@@ -295,7 +296,8 @@ div.less button {
     padding: 10px;
     border: none;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color: gray;
 }
 
 .less {
@@ -345,7 +347,6 @@ form textarea:focus {
 
 form button {
     background-color: gray;
-    color: white;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -385,7 +386,7 @@ form textarea {
 
 .contactleft span {
     font-size: 16px;
-    color: #555;
+    color: white;
 }
 
 .contactleft a {
@@ -400,7 +401,6 @@ form textarea {
 
 .contactleft button {
     background-color: gray;
-    color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -414,12 +414,13 @@ form textarea {
 }
 
 .contactleft button a {
-    color: #fff;
+    color:black;
     text-decoration: none;
 }
 
 .contactleft button a:hover {
     text-decoration: none;
+    color: white;
 }
 
 .contactleft p {
@@ -501,6 +502,12 @@ form textarea {
         width: 300px;
         height: 400px;
     }
+    .headimgcol-2{
+        margin-top: 15px;
+    }
+    .aboutmecol-1{
+        margin-bottom: 15px;
+    }
 }
 
 /*--------------*/
@@ -533,6 +540,16 @@ form textarea {
     .mywork {
         padding: 10px;
     }
+    
+}
+@media screen and (max-width :460px) {
+    .headimg img {
+        margin-left: 40px;
+    }
+    .headimg {
+        display: block;
+        padding: 0 5px 0 10px;
+    }
 }
 
 /*--395 nav h1 size low---*/
@@ -540,19 +557,28 @@ form textarea {
     .nav-container h1 {
         font-size: 30px;
     }
+    .nav-aboutme{
+        margin-left: 5px;
+    }
     .nav-aboutme h2 {
+        font-size: 30px;
+    }
+    .nav-aboutme p{
         font-size: 20px;
     }
     .programmerclass{
         font-size: 15px;
     }
-
     .headimg img {
         width: 250px;
         height: 300px;
+        margin-left: 40px;
     }
-
     .headimg {
+        display: block;
         padding: 0 5px 0 10px;
+    }
+    .headimgcol-2{
+        margin-top: 10px;
     }
 }
